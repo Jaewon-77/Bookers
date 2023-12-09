@@ -19,7 +19,7 @@
   <br><%= f.submit 'Update Book' %>
   <br>
 
-<br><span><%= link_to "Edit", edit_book_path(@book.id) %></span>|
+<br><span><%= link_to "Show", book_path(@book.id) %></span>|
 <span><%= link_to "Back", books_path %></span>
 
 <% end %>
